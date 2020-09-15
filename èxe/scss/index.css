@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'roboto';
+  src: url("../font/Roboto-Regular.ttf");
+}
+
+.nopadding {
+  padding: 0px !important;
+}
+
+.blackColor {
+  background-color: #111111;
+  padding: 14px 0px 14px 0px;
+}
+
+.blackColor p {
+  font-family: roboto;
+  color: #636363;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.blackColor .col-4 {
+  padding: 0px;
+}
+
+.blackColor .reseaux:hover {
+  color: #e5493a;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.blackColor .reseaux {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.blackColor #spanRegister {
+  color: #8dc63f;
+}
+
+.blackColor #spanItems {
+  color: #959595;
+}
+
+.grayColor {
+  background-color: #252525;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.grayColor .active {
+  color: #e5493a !important;
+}
+
+.grayColor i {
+  color: #555555;
+}
+
+.grayColor ul li a {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+.grayColor ul li .textColorGray {
+  color: #707070 !important;
+}
+
+.grayColor ul li .textColorGray:hover {
+  color: #e5493a !important;
+}
+
+.CAROUSEL .active {
+  color: #e5493a;
+}
+
+.CAROUSEL i {
+  color: #ffffff;
+  padding: 5px;
+}
+
+.CAROUSEL h2 {
+  width: 800px;
+  position: relative;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 40%;
+  margin-right: auto;
+  margin-top: -500px;
+  text-align: left;
+}
+
+.CAROUSEL h3 {
+  width: 800px;
+  position: relative;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-left: 40%;
+  text-align: left;
+}
+
+.CAROUSEL h3 span {
+  color: #e5493a;
+}
+
+.CAROUSEL p {
+  width: 650px;
+  position: relative;
+  color: #555555;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-left: 40%;
+  text-align: left;
+}
+
+.CAROUSEL #button1 {
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  padding: 15px 30px 15px 30px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  margin-left: 10%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: white;
+}
+
+.CAROUSEL #button1:hover {
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  padding: 15px 30px 15px 30px;
+  background-color: #e5493a;
+  border: 2px solid #e5493a;
+  margin-left: 10%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: white;
+}
+
+.CAROUSEL #button2 {
+  position: relative;
+  margin-left: 10px;
+  display: inline-block;
+  padding: 15px 30px 15px 30px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: white;
+}
+
+.CAROUSEL #button2:hover {
+  position: relative;
+  margin-left: 10px;
+  display: inline-block;
+  background-color: #e5493a;
+  border: 2px solid #e5493a;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: white;
+}
+
+.CAROUSEL .carousel-control-next-icon {
+  background-color: #363a3d;
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  background-size: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.CAROUSEL .carousel-control-next-icon:hover {
+  background-color: #e5493a;
+  position: absolute;
+  right: 0;
+  padding: 20px;
+  background-size: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.CAROUSEL .carousel-control-prev-icon {
+  background-color: #363a3d;
+  position: absolute;
+  left: 0;
+  padding: 20px;
+  background-size: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.CAROUSEL .carousel-control-prev-icon:hover {
+  background-color: #e5493a;
+  position: absolute;
+  left: 0;
+  padding: 20px;
+  background-size: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1330px) {
+  .CAROUSEL h2 {
+    margin-top: -400px;
+  }
+  .CAROUSEL p {
+    width: 500px;
+  }
+  .CAROUSEL #button1 {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1050px) {
+  .CAROUSEL h2 {
+    font-size: 50px;
+    margin-top: -300px;
+  }
+  .CAROUSEL h3 {
+    font-size: 30px;
+  }
+  .CAROUSEL p {
+    width: 400px;
+  }
+  .CAROUSEL #button1 {
+    margin-left: 25%;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 800px) {
+  .CAROUSEL h2 {
+    font-size: 50px;
+    margin-top: -200px;
+  }
+  .CAROUSEL h3 {
+    font-size: 30px;
+  }
+  .CAROUSEL p {
+    width: 400px;
+  }
+  .CAROUSEL #button1 {
+    margin-left: 36%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
