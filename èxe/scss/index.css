@@ -3,8 +3,18 @@
   src: url("../font/Roboto-Regular.ttf");
 }
 
+@font-face {
+  font-family: 'Raleway-ExtraBold';
+  src: url("../font/Raleway-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url("../font/Raleway-Regular.ttf");
+}
+
 .nopadding {
-  padding: 0px !important;
+  padding: 0px 0px 0px 0px !important;
 }
 
 .blackColor {
@@ -63,10 +73,15 @@
 
 .grayColor ul li .textColorGray {
   color: #707070 !important;
+  font-family: Raleway-ExtraBold;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .grayColor ul li .textColorGray:hover {
   color: #e5493a !important;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .CAROUSEL .active {
@@ -89,6 +104,7 @@
   margin-right: auto;
   margin-top: -500px;
   text-align: left;
+  font-family: Raleway-ExtraBold;
 }
 
 .CAROUSEL h3 {
@@ -100,6 +116,7 @@
   text-transform: uppercase;
   margin-left: 40%;
   text-align: left;
+  font-family: Raleway-ExtraBold;
 }
 
 .CAROUSEL h3 span {
@@ -116,6 +133,7 @@
   text-transform: uppercase;
   margin-left: 40%;
   text-align: left;
+  font-family: Raleway-ExtraBold;
 }
 
 .CAROUSEL #button1 {
@@ -129,6 +147,7 @@
   -webkit-transition: 0.4s;
   transition: 0.4s;
   color: white;
+  font-family: Raleway-ExtraBold;
 }
 
 .CAROUSEL #button1:hover {
@@ -154,6 +173,7 @@
   -webkit-transition: 0.4s;
   transition: 0.4s;
   color: white;
+  font-family: Raleway-ExtraBold;
 }
 
 .CAROUSEL #button2:hover {
@@ -205,6 +225,168 @@
   background-size: 20px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+
+.grayColor2 {
+  background-color: #252525;
+}
+
+.grayColor2 .section4margin {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.grayColor2 .hover .circle {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background-color: transparent;
+  border: 1px solid #363636;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.grayColor2 .hover .circle i {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: 27px;
+  font-size: 39px;
+  color: #363636;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.grayColor2 .hover .circle #icons2 {
+  font-size: 55px;
+  margin-top: 22px;
+  margin-left: 24%;
+}
+
+.grayColor2 .hover .circle #icons3 {
+  margin-left: 36%;
+  font-size: 45px;
+}
+
+.grayColor2 .hover .circle #icons4 {
+  font-size: 50px;
+  margin-top: 24px;
+}
+
+.grayColor2 .hover h3 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #636363;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-family: Raleway-ExtraBold;
+}
+
+.grayColor2 .hover p {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #555555;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.grayColor2 .hover:hover h3 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #e5493a;
+}
+
+.grayColor2 .hover:hover p {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #ffffff;
+}
+
+.grayColor2 .hover:hover .circle {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: 1px solid #e5493a;
+}
+
+.grayColor2 .hover:hover .circle i {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #e5493a;
+}
+
+.grayColor2 .trait {
+  width: 100%;
+  height: 2px;
+  background-color: #e5493a;
+  margin-top: 30px;
+}
+
+.Black2 {
+  background-color: #202020;
+}
+
+.Black2 .margin5section {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+
+.Black2 .firstContainer .trait2 {
+  width: 100%;
+  height: 2px;
+  background-color: #2f2f2f;
+}
+
+.Black2 .firstContainer h2 {
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.Black2 .firstContainer p {
+  margin-top: 30px;
+  color: #464646;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Black2 .ContainerIMG img {
+  width: 100%;
+  height: 100%;
+}
+
+.Black2 .container1 {
+  background-image: url(../img/image2container.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Black2 .container2 {
+  background-image: url(../img/image3container.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Black2 .container3 {
+  background-image: url(../img/image4container.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Black2 .container5 {
+  background-image: url(../img/image5container.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 1050px) and (max-width: 1330px) {

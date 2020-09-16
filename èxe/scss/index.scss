@@ -6,8 +6,16 @@ $grayColor: #252525;
     font-family: 'roboto';
     src: url('../font/Roboto-Regular.ttf');
     }
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('../font/Raleway-ExtraBold.ttf');
+    }
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Regular.ttf');
+    }
 .nopadding {
-    padding: 0px !important;
+    padding: 0px 0px 0px 0px !important;
 }
 .blackColor {
     //barre noir tout en haut de la page
@@ -61,9 +69,12 @@ $grayColor: #252525;
             }
             .textColorGray {
                 color: #707070 !important;
+                font-family: Raleway-ExtraBold;
+                transition: 0.4s;
             }
             .textColorGray:hover {
                 color: #e5493a !important;
+                transition: 0.4s;
             }
         }
     }
@@ -89,6 +100,7 @@ $grayColor: #252525;
         margin-right: auto;
         margin-top: -500px;
         text-align: left;
+        font-family: Raleway-ExtraBold;
     }
     h3 {
         width: 800px;
@@ -99,6 +111,7 @@ $grayColor: #252525;
         text-transform: uppercase;
         margin-left: 40%;
         text-align: left;
+        font-family: Raleway-ExtraBold;
         span {
             color: #e5493a;
         }
@@ -113,6 +126,7 @@ $grayColor: #252525;
         text-transform: uppercase;
         margin-left: 40%;
         text-align: left;
+        font-family: Raleway-ExtraBold;
     }
     #button1 {
         position: relative;
@@ -124,6 +138,7 @@ $grayColor: #252525;
         margin-left: 10%;
         transition: 0.4s;
         color: white;
+        font-family: Raleway-ExtraBold;
     }
     #button1:hover {
         position: relative;
@@ -145,6 +160,7 @@ $grayColor: #252525;
         border: 2px solid #ffffff;
         transition: 0.4s;
         color: white;
+        font-family: Raleway-ExtraBold;
     }
     #button2:hover {
         position: relative;
@@ -186,6 +202,147 @@ $grayColor: #252525;
         padding: 20px;
         background-size: 20px;
         transition: 0.4s;
+    }
+}
+
+//section en dessous du carroussel la class hover sert a changer les couleur de tous les elements en meme temps quand on passe la souris dessus
+.grayColor2 {
+    background-color: #252525;
+    .section4margin {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .hover {
+        .circle {
+            transition: 0.4s;
+            background-color: transparent;
+            border: 1px solid #363636;
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            i{
+                transition: 0.4s;
+                margin-top: 27px;
+                font-size: 39px;
+                color: #363636;
+                margin-left: 25%;
+                margin-right: 25%;   
+            }
+            #icons2 {
+                font-size: 55px;
+                margin-top: 22px;
+                margin-left: 24%;
+            }
+            #icons3 {
+                margin-left: 36%;
+                font-size: 45px;
+            }
+            #icons4 {
+                font-size: 50px;
+                margin-top: 24px;
+            }
+        }
+        h3 {
+            transition: 0.4s;
+            color: #636363;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: uppercase;
+            margin-top: 30px;
+            font-family: Raleway-ExtraBold;
+        }
+        p {
+            transition: 0.4s;
+            color: #555555;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-top: 20px;
+        }
+    }
+    .hover:hover {
+        h3 {
+            transition: 0.4s;
+            color: #e5493a;
+        }
+        p {
+            transition: 0.4s;
+            color: #ffffff;
+        }
+        .circle {
+            transition: 0.4s;
+            border: 1px solid #e5493a;
+            i {
+                transition: 0.4s;
+                color: #e5493a;
+            }
+        }
+    }
+    .trait {
+        width: 100%;
+        height: 2px;
+        background-color: #e5493a;
+        margin-top: 30px;
+    }
+}
+
+.Black2 {
+    background-color: #202020;
+    .margin5section {
+        padding-top: 80px;
+        padding-bottom: 160px;
+    }
+    .firstContainer {
+        .trait2 {
+            width: 100%;
+            height: 2px;
+            background-color: #2f2f2f;
+        }
+        h2 {
+            color: #ffffff;
+            font-family: Raleway;
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 28px;
+            text-transform: uppercase;
+            margin-top: 30px;
+        }
+        p {
+            margin-top: 30px;
+            color: #464646;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+    .ContainerIMG {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .container1 {
+        background-image: url(../img/image2container.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container2 {
+        background-image: url(../img/image3container.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container3 {
+        background-image: url(../img/image4container.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .container5 {
+        background-image: url(../img/image5container.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
